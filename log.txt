@@ -1,0 +1,5 @@
+2024-02-08 20:01:44,510 - INFO - Program started
+2024-02-08 20:01:44,511 - INFO - Program ended
+2024-02-08 20:06:18,918 - INFO - Program started
+2024-02-08 20:06:18,919 - INFO - Program ended
+2024-02-08 20:06:18,944 - INFO - All SQL operations completed successfully
