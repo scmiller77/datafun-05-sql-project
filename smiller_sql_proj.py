@@ -30,10 +30,10 @@ def main():
     execute_sql_from_file(db_filepath, 'update_records.sql')
     execute_sql_from_file(db_filepath, 'delete_records.sql')
     execute_sql_from_file(db_filepath, 'query_aggregation.sql')
-    #execute_sql_from_file(db_filepath, 'query_filter.sql')
-    #execute_sql_from_file(db_filepath, 'query_sorting.sql')
-    #execute_sql_from_file(db_filepath, 'query_group_by.sql')
-    #execute_sql_from_file(db_filepath, 'query_join.sql')
+    execute_sql_from_file(db_filepath, 'query_filter.sql')
+    execute_sql_from_file(db_filepath, 'query_sorting.sql')
+    execute_sql_from_file(db_filepath, 'query_group_by.sql')
+    execute_sql_from_file(db_filepath, 'query_join.sql')
 
     logging.info("All SQL operations completed successfully")
 
