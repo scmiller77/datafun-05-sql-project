@@ -1,4 +1,5 @@
 #Project 5
+#In this module, we use Python to create a database and complete queries using SQL
 
 import sqlite3
 import pandas as pd
@@ -11,6 +12,8 @@ logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', forma
 
 logging.info("Program started")
 logging.info("Program ended")
+
+# Function to connect to database and execute sql commands
 
 def execute_sql_from_file(db_filepath, sql_file):
     sql_folder = "sql"
